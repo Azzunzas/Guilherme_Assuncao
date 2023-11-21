@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./css/cadastro.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <img src="./img/Novo Projeto.png" alt="Logo" width="120"><br>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="conteudo.html">
+                    <li>Conteudo</li>
+                </a>
+                <a href="grid.html">
+                    <li>Grid</li>
+                </a>
+                <a href="relatorios.html">
+                    <li>Relatorios</li>
+                </a>
+                <a href="cadastro.html">
+                    <li>Cadastro</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h1>Cadastro de Usuários</h1>
+            <p>Preencha o formulário:</p>
+
+            <form>
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome">
+
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" id="email">
+
+                <label for="senha">Senha: </label>
+                <input type="password" name="senha" id="senha">
+
+                <label for="conf_senha">Confirmar senha: </label>
+                <input type="password" name="conf_senha" id="conf_senha">
+
+                <label for="cpf">CPF: </label>
+                <input type="text" name="cpf" id="cpf">
+
+                <label for="cidade">Cidade: </label>
+                <input type="text" name="cidade" id="cidade">
+
+                <label for="endereco">Endereço: </label>
+                <input type="text" for="endereco" id="endereco">
+
+                <label for="telefone">Telefone: </label>
+                <input type="text" name="telefone" id="telefone">
+
+                <label for="data">Data de Nascimento: </label>
+                <input type="date" name="data" id="data">
+                <div>
+                    <button type="reset" class="botoes_form">Limpar</button>
+                    <button type="submit" class="botoes_form">Cadastrar</button>
+                </div>
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Todos os direitos reservados &copy;2023</p>
+
+    </footer>
+
+    <button id="top">TOP</button>
+
+    <script src="top.js"></script>
+</body>
+
+</html>

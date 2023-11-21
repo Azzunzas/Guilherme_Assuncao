@@ -1,0 +1,164 @@
+body
+{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul a li
+{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+#menu
+{
+    font-weight: bold;
+    background-color: #988dd8;
+    text-align: center;
+    padding: 30px 5px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    transition: padding ease-in-out 250ms;
+}
+
+#menu.shrink
+{
+    padding: 10px 0px;
+}
+
+/* imagens de fundo secao*/
+
+#section1{ background-image: url(../img/foguete.jpg); }
+
+#section2{ background-image: url(../img/sistemasolar.jpg); }
+
+#section4{ background-image: url(../img/atronauta.jpg); }
+
+#section3{ background-image: url(../img/galaxia.jpg); }
+
+#section5{ background-image: url(../img/big-bang.jpg); }
+
+
+
+.parallax
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+.conteudo
+{
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: #fff;
+    padding: 20px;
+}
+
+footer
+{
+    background-color: #988dd8;
+    color: #fff;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+/* home login */
+
+#form_login{
+    text-align: center;
+
+}
+
+#form_login input
+{
+    margin: 5px;
+    margin-left: 20px;
+}
+
+.bot_log
+{
+    text-align: center;
+    margin: 0px;
+}
+
+.bot_log input
+{
+    width: calc(50% - 700px);
+    padding: 10px;
+    color: white;
+    background-color: #7422c2;
+    border: 1px solid #a546ffc9;
+    border-radius: 5px;
+    min-width: 70px;
+}
+
+.bot_log input:hover{
+    background-color: #988dd8;
+}
+
+input
+{
+    width: calc(60% - 600px);
+    padding: 10px;
+    border: 1px solid #b2a5f8;
+    border-radius: 5px;
+}
+
+/* botoes links homepage */
+
+.botoes_gerais
+{
+    text-align: center;
+}
+.botoes_gerais a
+{   
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    width: auto;
+    padding: 10px 20px;
+    color: white;
+    background-color: #7422c2;
+    border: 1px solid #a546ffc9;
+    border-radius: 5px;
+    min-width: 70px;
+}
+.botoes_gerais a:hover{
+    background-color: #988dd8;
+}
+
+#top
+{
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    border-radius: 12px;
+    color: white;
+    background-color: #7422c2;
+}
+#top:hover{
+    background-color: #988dd8;
+
+}

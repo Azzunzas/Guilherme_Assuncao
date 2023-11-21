@@ -1,0 +1,138 @@
+<!-- mudanças feita:
+    -adicionado o paralax a home page para uma melhor apresentação dos link
+    -mudança em alguns css
+    -add css em botoes
+    -redução de classes
+    -separação de css das páginas 
+    botao top alterado de ancora para botao simples com funcao js e css
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+
+<body>
+
+    <nav id="menu">
+        <ul>
+            <img src="./img/Novo Projeto.png" alt="Logo" width="120"><br>
+
+            <a href="#section1">
+                <li>Login</li>
+            </a>
+
+            <a href="#section2">
+                <li>Conteudo</li>
+            </a>
+
+            <a href="#section3">
+                <li>Grid</li>
+            </a>
+
+            <a href="#section4">
+                <li>Relatorios</li>
+            </a>
+
+            <a href="#section5">
+                <li>Cadastro</li>
+            </a>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="section1" class="parallax">
+            <div class="conteudo">
+                <h2>Login</h2>
+
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit ipsam soluta accusantium ut,
+                    pariatur blanditiis voluptates sint voluptas tempora odit, officia sit quae! Eius sint cumque illum
+                    earum repellat deleniti!</p>
+
+                <div class="pos direita" id="form_login">
+                    <p id="nome_login">Login: </p>
+
+                    <form>
+                        <input type="text" name="nome" id="nome" placeholder="Nome"><br>
+
+                        <input type="password" name="senha" id="senha" placeholder="Senha">
+
+                        <div class="bot_log">
+                            <input type="submit" value="Entrar">
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="section2" class="parallax">
+            <div class="conteudo">
+                <h2>Conteudo</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quia recusandae iste sunt eaque
+                    necessitatibus quis ducimus non molestias! Illum doloribus dicta officiis necessitatibus quam vitae
+                    sapiente ullam minus! Nihil!</p>
+                <div class="botoes_gerais">
+                    <a href="./conteudo.html"> Ver Conteudo</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="section3" class="parallax">
+            <div class="conteudo">
+                <h2>Grid</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum veritatis laborum accusamus modi
+                    nemo enim praesentium debitis, saepe commodi dolores exercitationem quasi consequatur cupiditate
+                    provident qui. Accusamus ipsam perferendis deleniti.</p>
+                <div class="botoes_gerais">
+                    <a href="./grid.html"> Ver Grid</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="section4" class="parallax">
+            <div class="conteudo">
+                <h2>Relatorios</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum veritatis laborum accusamus modi
+                    nemo enim praesentium debitis, saepe commodi dolores exercitationem quasi consequatur cupiditate
+                    provident qui. Accusamus ipsam perferendis deleniti.</p>
+                <div class="botoes_gerais">
+                    <a href="./relatorios.html"> Ver Relatorios</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="section5" class="parallax">
+            <div class="conteudo">
+                <h2>Cadastro</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum veritatis laborum accusamus modi
+                    nemo enim praesentium debitis, saepe commodi dolores exercitationem quasi consequatur cupiditate
+                    provident qui. Accusamus ipsam perferendis deleniti.</p>
+                <div class="botoes_gerais">
+                    <a href="./cadastro.html">Fazer Cadastro</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;2023 - RodaCalcanhar</p>
+    </footer>
+
+   <button id="top">TOP</button>
+   
+    <script src="./scripts.js"></script>
+</body>
+
+</html>

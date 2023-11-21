@@ -1,0 +1,120 @@
+body
+{
+    background-color: #b2a5f8;
+    background-image: url("../img/space.jpg");
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul
+{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul a li
+{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+#menu
+{
+    font-weight: bold;
+    background-color: #988dd8;
+    text-align: center;
+    padding: 30px 5px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    transition: padding ease-in-out 250ms;
+}
+/* pagina */
+main
+{
+    width: 75%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(195, 194, 206);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+h1
+{
+    color: #333;
+}
+
+p
+{
+    display: inline-block;
+    width: 30%;
+    color: #cecece;
+}
+
+footer
+{
+    color: #fff;
+    padding: 10px 0px;
+    text-align: center;
+}
+/* tabela */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+th,
+td {
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
+
+thead {
+    color: white;
+    background-color: #7422c2;
+}
+
+.cpf {
+    background-color: #a546ffc9;
+}
+
+.telefone {
+    background-color: #a546ffc9;
+}
+
+.data {
+    background-color: #a546ffc9;
+}
+
+.acess {
+    background-color: #a546ffc9;
+}
+
+/* botao */
+
+#top
+{
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    border-radius: 12px;
+    color: white;
+    background-color: #7422c2;
+}
+#top:hover{
+    background-color: #988dd8;
+
+} 
